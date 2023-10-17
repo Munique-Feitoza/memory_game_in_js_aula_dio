@@ -22,6 +22,8 @@ body {
     #ec38bc 70%,
     #fdeff9 100%
   );
+  border-radius: 20px;
+  box-shadow: 0 0 50px 16px rgba(20,20,20,50%);
 }
 
 h2 {
@@ -32,11 +34,14 @@ h2 {
 }
 
 .reset {
-  padding: 15px 20px;
+  padding: 20px 25px;
+  margin-top: 10px;
   width: 100%;
   color: #000;
   background-color: #fff;
+  box-shadow: 0 0 20px 5px rgba(20,20,20,50%);
   border: none;
+  border-radius: 20px;
   font-size: 1.5em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -94,9 +99,20 @@ h2 {
   transform: rotateY(180deg);
 }
 
+.win {
+  display: none;
+  text-align: center;
+  width: 500px;
+  height: 400px;
+  padding: 60px;
+  background-color: #fff;
+  box-shadow: 0 0 40px 10px rgba(20,20,20,50%);
+  border-radius: 40px;
+}
 
-
-
+h1 {
+  padding: 10px;
+}
 
 
 
