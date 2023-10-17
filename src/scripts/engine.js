@@ -41,7 +41,8 @@ function checkMatch() {
   openCards = [];
   
   if(document.querySelectorAll(".boxMatch").length === emojis.length) {
-    alert("Parabéns!! Fim de jogo ♥️");
+    document.querySelector(".container").style.display = 'none';
+    document.querySelector(".win").style.display = 'block';
   }
 }
 
