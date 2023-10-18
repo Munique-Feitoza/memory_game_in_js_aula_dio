@@ -19,8 +19,9 @@ body {
     325deg,
     #03001e 0%,
     #7303c0 30%,
-    #ec38bc 70%,
-    #fdeff9 100%
+    #ec38bc 50%,
+    #7303c0 70%,
+    #03001e 100%
   );
   border-radius: 20px;
   box-shadow: 0 0 50px 16px rgba(20,20,20,50%);
@@ -79,6 +80,14 @@ h2 {
   box-shadow: 0 0 7px 1px rgba(20,20,20,50%);
 }
 
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
 .item::after {
   content: "";
   position: absolute;
@@ -114,5 +123,26 @@ h1 {
   padding: 10px;
 }
 
-
+@media screen and (max-width: 420px) {
+  .container {
+    width: 350px;
+    height: 655px;
+    
+  }
+  .game {
+    width: 350px;
+    padding: 20px;
+  }
+  .item, .item img {
+    width: 70px;
+    height: 70px;
+  }
+  .win {
+    width: 350px;
+    height: 500px;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
 
